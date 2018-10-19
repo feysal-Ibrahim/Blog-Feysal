@@ -25,7 +25,7 @@ SECRET_KEY = '8=v4e^9*@8fdl#+i#6gtxx633r@uv1#q7dj*wydkp1h%bki_!k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['feysal.pythonanywhere.com']
 
 
 # Application definition
@@ -125,3 +125,7 @@ MEDIA_ROOT=os.path.join( BASE_DIR , 'media' )
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+MEDIA_URL = '/media/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
